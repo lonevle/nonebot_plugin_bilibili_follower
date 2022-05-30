@@ -1,14 +1,16 @@
 ## 插件功能
 用于哔哩哔哩粉丝数变更通知
+
 部分功能仍不完善
 
 ## 使用
 1.导入插件
+
 2.插件命令
-<bili add b站uid>绑定一个uid, 根据当前聊天方式自动添加到通知列表中(私聊: 当前私聊qq, 群聊: 当前群)
-<bili select b站uid>一次性查询uid粉丝数
-<bili del b站uid>删除绑定的uid, 仅允许绑定qq删除
-<bili help>查看插件命令
+ - `bili add b站uid`绑定一个uid, 根据当前聊天方式自动添加到通知列表中(私聊: 当前私聊qq, 群聊: 当前群)
+ - `bili select b站uid`一次性查询uid粉丝数
+ - `bili del b站uid`删除绑定的uid, 仅允许绑定qq删除
+ - `bili help`查看插件命令
 
 ## 提示
 更新间隔时间默认为1分钟, 可在代码中修改
